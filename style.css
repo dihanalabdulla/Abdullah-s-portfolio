@@ -82,3 +82,8 @@ h1 {
  .exp-item p{
 text-align: justify;
 }
+footer{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+}
