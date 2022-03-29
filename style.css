@@ -1,5 +1,5 @@
 body{
-    margin: 50px;
+   
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -20,14 +20,15 @@ padding: 10px 20px;
 border-radius: 8px;
 }
 .flexible{
-display: flex;
+    margin-left: 50px;
+    display: flex;
 }
 .half-width{
     width: 80%;
 }
 .half-width img{
-    width: 80%;
-    padding-left: 20%;
+    width: 40%;
+    padding-left: 50%;
     margin-right: 5%;
 }
 #p{
@@ -43,8 +44,8 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 .exp-item{
+    padding-right: 5%;
     display: flex;
-    
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
@@ -86,4 +87,7 @@ footer{
     padding-top: 50px;
     padding-bottom: 0px;
     text-align: center;
+}
+.expecience{
+    margin-left: 50px;
 }
